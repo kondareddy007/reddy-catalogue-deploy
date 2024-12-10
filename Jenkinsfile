@@ -13,7 +13,7 @@ pipeline {
         ansiColor('xterm')
     }
     parameters {
-        string (name: 'version', defaultValue: '1.0.0', description: 'What is artifact version')
+        string (name: 'version', defaultValue: '', description: 'What is artifact version')
         string (name: 'environment', defaultValue: 'dev', description: 'what is environment')
         
     }
